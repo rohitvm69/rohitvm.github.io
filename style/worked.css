@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.my-journey{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 100px 450px;
+    padding-bottom: 50px;
+    justify-content: left;
+    align-items: center;
+}
+
+.my-journey hr{
+    padding: 0 0;
+    margin-left: 10px;
+    border: 2px solid rgb(160, 172, 202);
+    width: 40%;
+    font-size: 1px;
+}
+
+.my-journey-content{
+    display: flex;
+    gap: 20px;
+    padding: 0 450px;
+    padding-bottom: 70px;
+}
+
+.my-journey-content ul{
+    list-style-type: none;
+    width: 115px;
+}
+
+.my-journey-head li{
+    padding: 0 0;
+    width: auto;
+    border: solid rgb(160, 172, 202);
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+}
+
+.my-journey-content button{
+    border: none;
+    padding: 15px 15px;
+    justify-content: center;
+    width: 130px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.my-journey-content button:hover{
+    background-color: rgb(17, 35, 55);
+    color: rgb(90, 230, 199);
+}
+
+#journey-data{
+    padding: 10px 20px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#journey-data li{
+    width: 400px;
+}
+
+#designation{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#time-period{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(90, 230, 199);
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.c1{
+    /* padding-top: 10px;
+    padding-left: 5px; */
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.c2{
+    padding-left: 15px;
+}

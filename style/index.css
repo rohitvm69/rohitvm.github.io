@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    background-color: rgb(10, 25, 47);
+    color:rgb(160, 172, 202);
+}
+
+body{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /* position: fixed;
+    top: 0; */
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+header img{
+    width: 90px;
+    margin: 10px 40px;
+    /* position: fixed;
+    left: 0; */
+}
+
+header ol{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    counter-reset: num;
+    /* position: fixed; */
+    right: 0;
+    padding: 30px 230px;
+    font-family: 'Fira Code', monospace;
+}
+
+header ol li{
+    counter-increment: num;
+    padding: 0 30px;
+}
+
+header ol li::before{
+    content: "0" counter(num) ". ";
+    color: rgb(90, 230, 199);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+header a{
+    color: rgb(160, 172, 202);
+    font-weight: bolder;
+    /* margin: 30px 30px; */
+    padding: 0 0px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+header a:hover{
+    color: rgb(90, 230, 199);
+}
+
+#resume{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    position: fixed;
+    right: 0;
+    padding: 20px 30px;
+    border: solid rgb(90, 230, 199);
+    border-radius: 10px;
+    margin: 20px 70px;
+}
+
+.main{
+    margin: 170px 270px;
+    /* margin-top: 170px; */
+}
+
+.text-header{
+    font-family: 'Fira Code', monospace;
+    color:rgb(90, 230, 199);
+    margin: 20px 0;
+}
+
+.text-main{
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 70px;
+    color: rgb(204, 214, 246);
+    font-weight: bolder;
+}
+
+.text-mono{
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 65px;
+    color: rgb(136, 146, 176);
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.text-about{
+    width: 65%;
+    padding: 35px 0;
+    padding-bottom: 80px;
+    font-family: 'Fira Code', monospace;
+    color: rgb(160, 172, 202);
+}
+
+.check-out{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(204, 214, 246);
+    border: solid rgb(90, 230, 199);
+    border-width: 1px;
+    border-radius: 10px;
+    width: auto;
+    padding: 20px 20px;
+    font-weight: bolder;
+}
+
+.check-out a{
+    color: rgb(160, 172, 202);
+    font-weight: bolder;
+    margin: 30px 30px;
+    padding: 0 0px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.check-out a:hover{
+    color: rgb(90, 230, 199);
+}
+/* 
+p{
+    padding: 40px 0;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } */

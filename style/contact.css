@@ -1,0 +1,40 @@
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 70%; */
+    margin: 10px 400px;
+}
+
+#contact-me .contact-head{
+    color: rgb(90, 230, 199);
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    margin: 10px 10px;
+}
+
+#contact-me .contact-topic{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 10px;
+}
+
+#contact-me .contact-info{
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+#say-hello{
+    color: #64ffda;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 1.25rem 1.75rem;
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    line-height: 1;
+    cursor: pointer;
+    margin-top: 3;
+    text-decoration: none;
+}

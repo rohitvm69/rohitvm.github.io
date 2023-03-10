@@ -1,0 +1,60 @@
+.my-projects{
+    margin: 0 19%;
+    position: relative;
+
+}
+
+.my-projects img{
+    width: 70%;
+    padding: 70px 0;
+}
+
+.featured-project {
+    position: absolute;
+    top: 15%;
+    right: 3%;
+    color: rgb(90, 230, 199);
+    font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+    font-size: 15px;
+}
+
+.project-name{
+    position: absolute;
+    top: 19%;
+    right: 3%;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.project-info{
+    position: absolute;
+    width: 40%;
+    top: 29%;
+    right: 3%;
+    padding: 14px 20px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.pro-depends{
+    list-style-type: none;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 60%;
+    right: 3%;
+    font-size: 15px;
+}
+
+.my-projects-left{
+    margin: 0 19%;
+    position: relative;
+}
+
+.my-projects-left img{
+    /* position: absolute;
+    right: 1px; */
+    width: 70%;
+    padding: 70px 0;
+}
